@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Bistro Bliss restaurant website that displays their menu and provides more information about the restaurant.">
+    <title>Bistro Bliss Restaurant</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0acc85d45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="gray-bkg">
+    <header>
+        <div class="flex">
+            <div class="flex">
+                <a href="tel:(414) 857 - 0017">
+                    <i class="fa-solid fa-phone"></i>&nbsp;
+                    <p>(039) 903 - 5868</p>
+                </a>
+
+                <a href="mailto:yummy@bistrobliss.com">
+                    <i class="fa-regular fa-envelope"></i>&nbsp;
+                    <p>hieunmph46626@fpt.edu.vn</p>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="flex">
+            <a href="../" class="logo flex">
+                <img src="../img/japanese-food.svg" alt="Bistro Bliss Restaurant">
+                <h2>Bistro Bliss</h2>
+            </a>
+            <i class="fa-solid fa-bars" id="mobMenu"></i>
+            <ul class="navigationMenu flex">
+                <i class="fa-solid fa-xmark mobileView" id="mobExit"></i>
+                <li><a href="../">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+
+
+                <a href="./contact.html" class="basicBtn">Book A Table</a>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section>
+        <h1>Book a Table</h1>
+        <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        </p>
+    </section>
+
+    <div class="container">
+        <form action="" class="flex">
+            <div class="inputContainer">
+                <label>Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+       
+            <div class="inputContainer">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="John Smith">
+            </div>
+            <div class="inputContainer">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" placeholder="1-234-567-435">
+            </div>
+           
+            <input type="submit" value="Book a Table" class="ctaBtn">
+        </form>
+
+   
+    </div>
+
+
+
+    
+</body>
+
+</html>
